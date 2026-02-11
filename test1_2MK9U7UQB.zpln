@@ -2,9 +2,9 @@
   "paragraphs": [
     {
       "title": "",
-      "text": "%sql show tables",
+      "text": "%sql show table\n\n\nszzszzzz",
       "user": "anonymous",
-      "dateUpdated": "2026-02-11 14:16:59.280",
+      "dateUpdated": "2026-02-11 14:49:03.094",
       "progress": 0,
       "config": {
         "lineNumbers": true,
