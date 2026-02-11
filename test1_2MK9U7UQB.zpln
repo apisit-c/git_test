@@ -4,7 +4,7 @@
       "title": "",
       "text": "%sql show tables",
       "user": "anonymous",
-      "dateUpdated": "2026-02-11 14:15:16.814",
+      "dateUpdated": "2026-02-11 14:16:59.280",
       "progress": 0,
       "config": {
         "lineNumbers": true,
@@ -32,7 +32,7 @@
                       "tableName": "string",
                       "isTemporary": "string"
                     },
-                    "updated": true
+                    "updated": false
                   },
                   "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
                   "tableOptionValue": {
@@ -75,9 +75,93 @@
       "status": "FINISHED"
     },
     {
+      "text": "%sql\nselect 1",
+      "user": "anonymous",
+      "dateUpdated": "2026-02-11 14:17:27.555",
+      "progress": 0,
+      "config": {
+        "lineNumbers": true,
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "1": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "1\n1\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://ec2-54-151-198-90.ap-southeast-1.compute.amazonaws.com:4050/jobs/job?id\u003d0"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 2000,
+      "jobName": "paragraph_1770794098611_244957529",
+      "id": "paragraph_1770794098611_244957529",
+      "dateCreated": "2026-02-11 14:14:58.611",
+      "dateStarted": "2026-02-11 14:17:26.232",
+      "runBy": "apisit",
+      "dateFinished": "2026-02-11 14:17:27.397",
+      "status": "FINISHED"
+    },
+    {
       "text": "%sql\n",
       "user": "anonymous",
-      "dateUpdated": "2026-02-11 14:14:58.611",
+      "dateUpdated": "2026-02-11 14:17:26.232",
       "progress": 0,
       "config": {
         "lineNumbers": true
@@ -89,9 +173,9 @@
       "apps": [],
       "runtimeInfos": {},
       "progressUpdateIntervalMs": 2000,
-      "jobName": "paragraph_1770794098611_244957529",
-      "id": "paragraph_1770794098611_244957529",
-      "dateCreated": "2026-02-11 14:14:58.611",
+      "jobName": "paragraph_1770794246232_1004060763",
+      "id": "paragraph_1770794246232_1004060763",
+      "dateCreated": "2026-02-11 14:17:26.232",
       "status": "READY"
     }
   ],
