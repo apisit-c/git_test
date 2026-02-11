@@ -1,0 +1,109 @@
+{
+  "paragraphs": [
+    {
+      "title": "",
+      "text": "%sql show tables",
+      "user": "anonymous",
+      "dateUpdated": "2026-02-11 14:15:16.814",
+      "progress": 0,
+      "config": {
+        "lineNumbers": true,
+        "editorSetting": {
+          "language": "sql",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12.0,
+        "editorMode": "ace/mode/sql",
+        "fontSize": 9.0,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300.0,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "namespace": "string",
+                      "tableName": "string",
+                      "isTemporary": "string"
+                    },
+                    "updated": true
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "namespace\ttableName\tisTemporary\ndefault\taccess_log\tfalse\ndefault\tbde_role\tfalse\ndefault\tbde_user_primary_role\tfalse\ndefault\tbde_users\tfalse\ndefault\tbilling\tfalse\ndefault\tclaim_payment\tfalse\ndefault\tcustomer_profile\tfalse\ndefault\tday_hour_mock\tfalse\ndefault\tdemo_aggregate\tfalse\ndefault\tfile_export_state\tfalse\ndefault\tforeigner_tourist_arrival\tfalse\ndefault\tgold_query_sumamry_history\tfalse\ndefault\tgold_query_summary\tfalse\ndefault\tgovernance_query_export_activity\tfalse\ndefault\tindicato1_4_silver\tfalse\ndefault\tindicato4_4_silver\tfalse\ndefault\tindicato5_1_silver\tfalse\ndefault\tindicator1_1_silver\tfalse\ndefault\tindicator1_2_silver\tfalse\ndefault\tindicator_1_1\tfalse\ndefault\tindicator_1_2\tfalse\ndefault\tindicator_1_3\tfalse\ndefault\tindicator_1_4\tfalse\ndefault\tindicator_1_5\tfalse\ndefault\tindicator_2_1\tfalse\ndefault\tindicator_2_2\tfalse\ndefault\tindicator_2_3\tfalse\ndefault\tindicator_2_4\tfalse\ndefault\tindicator_3_1\tfalse\ndefault\tindicator_3_2\tfalse\ndefault\tindicator_3_3\tfalse\ndefault\tindicator_3_4\tfalse\ndefault\tindicator_3_5\tfalse\ndefault\tindicator_3_6\tfalse\ndefault\tindicator_4_1\tfalse\ndefault\tindicator_4_1_silver\tfalse\ndefault\tindicator_4_2\tfalse\ndefault\tindicator_4_2_silver\tfalse\ndefault\tindicator_4_3\tfalse\ndefault\tindicator_4_3_silver\tfalse\ndefault\tindicator_4_4\tfalse\ndefault\tindicator_4_5\tfalse\ndefault\tindicator_4_5_silver\tfalse\ndefault\tindicator_5_1\tfalse\ndefault\tindicator_5_3\tfalse\ndefault\tindicator_5_4\tfalse\ndefault\tji_test_delta_pwbi\tfalse\ndefault\tji_test_delta_pwbi_2\tfalse\ndefault\tjn_test_in_pwbi\tfalse\ndefault\tmots_indicator_1_4_old\tfalse\ndefault\tnew_mots_indicator_1_1\tfalse\ndefault\tnew_mots_indicator_1_2\tfalse\ndefault\tnew_mots_indicator_1_2_v2\tfalse\ndefault\tnew_mots_indicator_1_3\tfalse\ndefault\tnew_mots_indicator_1_4\tfalse\ndefault\tnew_mots_indicator_2_1\tfalse\ndefault\tnew_mots_indicator_2_3\tfalse\ndefault\tnew_mots_indicator_4_2\tfalse\ndefault\tnew_mots_indicator_4_5\tfalse\ndefault\tnoey_01_sale\tfalse\ndefault\tnp_mots_contract_explore7\tfalse\ndefault\tploy_testcase\tfalse\ndefault\tquery_master\tfalse\ndefault\tquery_master_cold\tfalse\ndefault\tquery_master_hot\tfalse\ndefault\tquery_master_warm\tfalse\ndefault\tsale_all_country\tfalse\ndefault\tsale_all_country2\tfalse\ndefault\tsale_all_country_aggregation\tfalse\ndefault\tscience_center\tfalse\ndefault\tscience_center_detail\tfalse\ndefault\tsilver_query_history\tfalse\ndefault\tsys_activity_audit\tfalse\ndefault\ttable001\tfalse\ndefault\ttang\tfalse\ndefault\ttang_ja\tfalse\ndefault\ttest_part\tfalse\ndefault\ttest_rest_api\tfalse\ndefault\tthun_agg\tfalse\ndefault\tthun_ccccc\tfalse\ndefault\tthun_default_scm\tfalse\ndefault\ttki_audit_security\tfalse\ndefault\ttli_beneficiary\tfalse\ndefault\ttli_compensation\tfalse\ndefault\ttli_health_claims\tfalse\ndefault\ttli_personal\tfalse\ndefault\ttli_policy_details\tfalse\ndefault\ttli_uw_app_main\tfalse\ndefault\ttli_uw_app_main_2\tfalse\ndefault\ttli_uw_health\tfalse\ndefault\ttli_uw_workflow\tfalse\ndefault\ttourist_silvers\tfalse\ndefault\ttraining_center\tfalse\ndefault\ttraining_center_detail\tfalse\ndefault\tuba_active_predictions\tfalse\ndefault\tuba_inactive_predictions\tfalse\ndefault\tv_access_log_base\tfalse\ndefault\tview_query_history\tfalse\n\tex_query_history\tfalse\n\text_datasource_profile\tfalse\n\tquery_history\tfalse\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 2000,
+      "jobName": "paragraph_1770794092464_832873180",
+      "id": "paragraph_1770794092464_832873180",
+      "dateCreated": "2026-02-11 14:14:52.464",
+      "dateStarted": "2026-02-11 14:14:58.612",
+      "runBy": "apisit",
+      "dateFinished": "2026-02-11 14:15:14.976",
+      "status": "FINISHED"
+    },
+    {
+      "text": "%sql\n",
+      "user": "anonymous",
+      "dateUpdated": "2026-02-11 14:14:58.611",
+      "progress": 0,
+      "config": {
+        "lineNumbers": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 2000,
+      "jobName": "paragraph_1770794098611_244957529",
+      "id": "paragraph_1770794098611_244957529",
+      "dateCreated": "2026-02-11 14:14:58.611",
+      "status": "READY"
+    }
+  ],
+  "name": "test1",
+  "id": "2MK9U7UQB",
+  "defaultInterpreterGroup": "spark",
+  "version": "4.6.11",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": true
+  },
+  "info": {}
+}
